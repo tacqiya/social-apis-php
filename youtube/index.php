@@ -4,7 +4,8 @@ require_once('define.php');
 
 $api_error = "Videos not found";
 try {
-    $api_data = @file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId=' . $all_playlist . '&maxResults=' . $max_results . '&key=' . $API_key . '');
+    // $api_data = @file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId=' . $all_playlist . '&maxResults=' . $max_results . '&key=' . $API_key . '');
+    $api_data = @file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&maxResults=' . $max_results . '&key=' . $API_key . '');
     if ($api_data) {
         $videoList = json_decode($api_data);
     } else {
@@ -14,6 +15,9 @@ try {
     $api_error = $e->getMessage();
 }
 
+if($api_error) {
+    echo $api_error; exit;
+}
 ?>
 
 <div class="blk ytube">
