@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'fde78fc7eea6a8309c2c6665a3408a98448393c2',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'fde78fc7eea6a8309c2c6665a3408a98448393c2',
+            'dev_requirement' => false,
+        ),
+        'abraham/twitteroauth' => array(
+            'pretty_version' => '7.0.0',
+            'version' => '7.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../abraham/twitteroauth',
+            'aliases' => array(),
+            'reference' => 'a8622680f954d0c4f54fd80bedebe00c756ed7aa',
+            'dev_requirement' => false,
+        ),
+        'composer/ca-bundle' => array(
+            'pretty_version' => '1.4.2',
+            'version' => '1.4.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/./ca-bundle',
+            'aliases' => array(),
+            'reference' => '18fc0ab083a48f85bfee31f3786537353b8a8403',
+            'dev_requirement' => false,
+        ),
+    ),
+);
