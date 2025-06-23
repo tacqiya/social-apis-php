@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://api.twitter.com/2/tweets/1366280536403177473?tweet.fields=attachments%2Cauthor_id%2Ccreated_at%2Centities%2Cgeo%2Cid%2Cin_reply_to_user_id%2Clang%2Cpossibly_sensitive%2Creferenced_tweets%2Csource%2Ctext%2Cwithheld',
+  CURLOPT_URL => 'https://api.twitter.com/2/tweets/298119851?tweet.fields=attachments%2Cauthor_id%2Ccreated_at%2Centities%2Cgeo%2Cid%2Cin_reply_to_user_id%2Clang%2Cpossibly_sensitive%2Creferenced_tweets%2Csource%2Ctext%2Cwithheld',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
@@ -12,8 +12,8 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
   CURLOPT_HTTPHEADER => array(
-    'oauth_consumer_key: vJcvlbOwpNLfgjgeXmJ8FRz1y',
-    'oauth_consumer_secret: 7cLhV3fWfbNqq6JrXZ8mmyDbZQJAtZT3zhphQBxlhJcK7Y41ix'
+    'oauth_consumer_key: JrwJ8pjUP7qjnxNuTPUufRiz4',
+    'oauth_consumer_secret: UoCxFatIueNgUO8jv6hI6P63LjgUGK27UyWRAVpj1Txzxr2TRO'
   ),
 ));
 

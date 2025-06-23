@@ -4,18 +4,18 @@ require "vendor/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 // Twitter API credentials
-$consumer_key = 'vJcvlbOwpNLfgjgeXmJ8FRz1y';
-$consumer_secret = '7cLhV3fWfbNqq6JrXZ8mmyDbZQJAtZT3zhphQBxlhJcK7Y41ix';
-$access_token = 'Ccv4CKq5sINidhqEC7Di3H3MoOqju4';
-$access_token_secret = 'y3ikaC4IVyHvpL3f0UyCPSTELoWJcDwi4TCp5vz2Anwxu';
+$consumer_key = 'JrwJ8pjUP7qjnxNuTPUufRiz4';
+$consumer_secret = 'UoCxFatIueNgUO8jv6hI6P63LjgUGK27UyWRAVpj1Txzxr2TRO';
+$access_token = '1366280536403177473-1yncpoK0mUPnDjpHPAgZSMvp4V8HC9';
+$access_token_secret = 'KiMV9tsKYUNhH4qwlmuMg7B20AcIbZrylfcGYg6GZFOQl';
 
 // User's Twitter handle (screen name)
-$screen_name = 'TyphixD';
+$screen_name = 'KhalifaUni';
 
 // Connect to Twitter API
 $connection = new TwitterOAuth($consumer_key, $consumer_secret, $access_token, $access_token_secret);
 $connection->setApiVersion('2');
-$response = $connection->get('users', ['ids' => 1366280536403177473]);
+$response = $connection->get('users', ['ids' => 298119851]);
 // $content = $connection->get("account/verify_credentials");
 echo '<pre>'; print_r($response);
 // Get tweets

@@ -1,0 +1,162 @@
+.twtr .posts {
+    height: 393px;
+    overflow: overlay;
+}
+.twitter-x {
+    font-family: Arial, sans-serif;
+	.profile-header {
+		background: #fff;
+		overflow: hidden;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+
+	.banner {
+		height: 130px;
+		background: url(../img/social/twitter-timeline-header.jpg) center/cover no-repeat;
+	}
+
+	.profile-info {
+		padding: 1rem;
+		position: relative;
+		background: #fff;
+	}
+
+	.avatar {
+		width: 66px;
+		height: 66px;
+		border-radius: 50%;
+		border: 4px solid #cdcdcd;
+		position: absolute;
+		top: -32px;
+		left: 1rem;
+		background-color: #ccc;
+	}
+
+	.profile-info .name {
+		margin-left: 80px;
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+
+	.handle {
+		margin-left: 80px;
+		color: #657786;
+		font-size: 0.95rem;
+	}
+
+	.bio {
+		margin-left: 80px;
+		font-size: 0.95rem;
+		color: #14171a;
+		margin-top: 0.5rem;
+	}
+
+	.follow-stats {
+		margin-left: 80px;
+		margin-top: 0.75rem;
+		font-size: 0.95rem;
+		color: #657786;
+	}
+
+	.follow-stats span {
+		margin-right: 1.5rem;
+		color: #14171a;
+	}
+
+	.follow-stats b {
+		color: #000;
+	}
+
+	.timeline {
+		background: #fff;
+		border-top: 1px solid #e1e8ed;
+		border-radius: 0 0 12px 12px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	}
+
+	.tweet {
+		display: flex;
+		gap: 1rem;
+		padding: 1rem;
+		border-bottom: 1px solid #e1e8ed;
+	}
+
+	.tweet:last-child {
+		border-bottom: none;
+	}
+
+	.tweet .avatar {
+		width: 48px;
+		height: 48px;
+		position: static;
+		border: none;
+	}
+
+	.content {
+		flex: 1;
+	}
+
+	.content .name {
+		font-weight: bold;
+		font-size: 1rem;
+	}
+
+	.content .handle {
+		color: #657786;
+		font-size: 0.9rem;
+		margin-left: 0.4rem;
+	}
+
+	.text {
+		margin: 0.25rem 0;
+		font-size: 1rem;
+		line-height: 1.4;
+	}
+
+	.tweet-img {
+		margin-top: 0.5rem;
+		border-radius: 12px;
+		max-width: 100%;
+	}
+
+	.timestamp {
+		font-size: 0.8rem;
+		color: #657786;
+	}
+
+	.tweet a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.x-link {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.x-link:hover {
+		text-decoration: underline;
+	}
+}
+
+@media (max-width: 500px) {
+	.twitter-x {
+		.name,
+		.handle,
+		.bio,
+		.follow-stats {
+			margin-left: 0;
+			text-align: center;
+		}
+
+		.avatar {
+			position: static;
+			margin: -48px auto 0;
+			display: block;
+		}
+
+		.profile-info {
+			padding-top: 3rem;
+		}
+	}
+}

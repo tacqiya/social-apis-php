@@ -1,0 +1,110 @@
+.twtr .posts {
+  height: 393px;
+  overflow: overlay; }
+
+.twitter-x {
+  font-family: Arial, sans-serif; }
+  .twitter-x .profile-header {
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+  .twitter-x .banner {
+    height: 130px;
+    background: url(../img/social/twitter-timeline-header.jpg) center/cover no-repeat; }
+  .twitter-x .profile-info {
+    padding: 1rem;
+    position: relative;
+    background: #fff; }
+  .twitter-x .avatar {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 4px solid #cdcdcd;
+    position: absolute;
+    top: -32px;
+    left: 1rem;
+    background-color: #ccc; }
+  .twitter-x .profile-info .name {
+    margin-left: 80px;
+    font-size: 1.4rem;
+    font-weight: bold; }
+  .twitter-x .handle {
+    margin-left: 80px;
+    color: #657786;
+    font-size: 0.95rem; }
+  .twitter-x .bio {
+    margin-left: 80px;
+    font-size: 0.95rem;
+    color: #14171a;
+    margin-top: 0.5rem; }
+  .twitter-x .follow-stats {
+    margin-left: 80px;
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    color: #657786; }
+  .twitter-x .follow-stats span {
+    margin-right: 1.5rem;
+    color: #14171a; }
+  .twitter-x .follow-stats b {
+    color: #000; }
+  .twitter-x .timeline {
+    background: #fff;
+    border-top: 1px solid #e1e8ed;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
+  .twitter-x .tweet {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #e1e8ed; }
+  .twitter-x .tweet:last-child {
+    border-bottom: none; }
+  .twitter-x .tweet .avatar {
+    width: 48px;
+    height: 48px;
+    position: static;
+    border: none; }
+  .twitter-x .content {
+    flex: 1; }
+  .twitter-x .content .name {
+    font-weight: bold;
+    font-size: 1rem; }
+  .twitter-x .content .handle {
+    color: #657786;
+    font-size: 0.9rem;
+    margin-left: 0.4rem; }
+  .twitter-x .text {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    line-height: 1.4; }
+  .twitter-x .tweet-img {
+    margin-top: 0.5rem;
+    border-radius: 12px;
+    max-width: 100%; }
+  .twitter-x .timestamp {
+    font-size: 0.8rem;
+    color: #657786; }
+  .twitter-x .tweet a {
+    color: inherit;
+    text-decoration: none; }
+  .twitter-x .x-link {
+    text-decoration: none;
+    color: inherit; }
+  .twitter-x .x-link:hover {
+    text-decoration: underline; }
+
+@media (max-width: 500px) {
+  .twitter-x .name,
+  .twitter-x .handle,
+  .twitter-x .bio,
+  .twitter-x .follow-stats {
+    margin-left: 0;
+    text-align: center; }
+  .twitter-x .avatar {
+    position: static;
+    margin: -48px auto 0;
+    display: block; }
+  .twitter-x .profile-info {
+    padding-top: 3rem; } }
+
+/*# sourceMappingURL=twitter-x.css.map */
